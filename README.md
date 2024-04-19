@@ -68,7 +68,17 @@ curl -X POST -H "Content-Type: application/json" \
     http://localhost:5000/predict
 ```
 
-## Contribuições
+A resposta da API será um JSON contendo a classe prevista pelo modelo. Por exemplo:
+
+```
+{
+    "prediction": 0
+}
+```
+
+Aqui, o número retornado corresponde à classe da flor Iris prevista pelo modelo (por exemplo, 0 para Iris-setosa).
+
+# Contribuições
 
 Contribuições são bem-vindas. Para contribuir, por favor, crie um pull request para revisão.
 
