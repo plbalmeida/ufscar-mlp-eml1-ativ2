@@ -2,7 +2,7 @@
 
 ## Projeto de classificação de Iris
 
-Este repositório contém o código e os artefatos para a atividade 2 do módulo de Engenharia de Machine Learning, parte do curso de pós-graduação *ML in Production* da UFSCar. O projeto consiste em um modelo de Machine Learning para classificar flores Iris, uma API Flask para predição online e uma configuração Docker para containerização da aplicação.
+Este repositório contém o código e os artefatos para a atividade 2 do módulo 1 de Engenharia de Machine Learning, parte do curso de pós-graduação *ML in Production* da UFSCar. O projeto consiste em um modelo de Machine Learning para classificar flores Iris, uma API Flask para predição online e uma configuração Docker para containerização da aplicação.
 
 ## Estrutura do repositório
 
@@ -27,7 +27,7 @@ Antes de começar, você precisará ter o Docker instalado em sua máquina. Voc�
 Clone o repositório para sua máquina local usando:
 
 ```bash
-git clone https://github.com/plbalmeida/ufscar-mlp-eml1-atividade2.git
+git clone https://github.com/plbalmeida/ufscar-mlp-eml1-ativ2.git
 ```
 
 ### Passo 2: Treinar o modelo de ML
@@ -45,7 +45,7 @@ python train.py
 Na raiz do projeto, construa a imagem Docker usando:
 
 ```
-docker build -t ufscar-mlp-eml1-atividade2 .
+docker build -t ufscar-mlp-eml1-ativ2 .
 ```
 
 ### Passo 4: Rodar o container
@@ -53,7 +53,7 @@ docker build -t ufscar-mlp-eml1-atividade2 .
 Inicie o container com o seguinte comando:
 
 ```
-docker run -p 5000:5000 ufscar-mlp-eml1-atividade2
+docker run -p 5000:5000 ufscar-mlp-eml1-ativ2
 ```
 
 O comando acima irá rodar o container e mapear a porta 5000 do container para a porta 5000 do seu host local.
