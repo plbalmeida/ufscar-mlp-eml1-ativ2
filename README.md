@@ -1,4 +1,4 @@
-# UFSCar - ML in Production - EML1 - Atividade 2
+# UFSCar - ML in Production - Módulo Eng. de ML 1 - Atividade 2
 
 ## Projeto de classificação de Iris
 
